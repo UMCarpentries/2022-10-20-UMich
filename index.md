@@ -262,6 +262,14 @@ Edit the text to match who can attend the workshop. For instance:
 </p>
 {% endcomment %}
 
+<p id="registration" align="center">
+  <strong>
+    <font size="36">
+    <a href="https://ttc.iss.lsa.umich.edu/ttc/sessions/software-carpentry-workshop-unix-r-and-git/" target="_blank">Click Here to Register</a>
+    </font>
+  </strong>
+</p>
+
 <hr/>
 
 {% comment%}
