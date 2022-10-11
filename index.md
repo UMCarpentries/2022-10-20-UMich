@@ -418,6 +418,25 @@ please preview your site before committing, and make sure to run
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
+<h3>Pre-workshop setup steps</h3>
+<div markdown="1">
+
+All installation steps are required prior to receiving workshop Zoom link/meeting ID. Installation will take approximately 20-30 minutes to complete. Help is available in the U-M Carpentries <a href = "https://um-med-carpentry.slack.com/archives/C0461TAP94K">#install-party slack channel</a> or email (salucas@umich.edu) to set up a time for troubleshooting.
+
+1. Install the following software (<a href="#install">all instructions are below</a>).
+    - A Unix shell (e.g. bash, zsh)
+    - [git](https://git-scm.com/)
+    - [R](https://www.r-project.org/)
+    - [RStudio](https://rstudio.com/), an integrated development environment for R
+2. Create a [GitHub](https://github.com/) account if you do not already have one. You'll need to know the email associated with your account during the git lesson of the workshop.
+3. After you have installed everything above, download [un-report.zip](https://github.com/UMSWC/curriculum/raw/gh-pages/files/un-report.zip). You'll need the files included during the workshop.
+    1. Move `un-report.zip` to your **Desktop** and unzip it (usually double-clicking it will work).
+    2. Start up **RStudio**. In the upper left menu, select `File` > `Open`. In the window that opens, go to the `un-report/` folder on your Desktop and select the file `check_setup.R` to open it in RStudio.
+    3. Click the **`Source`** button to run the script. This script will make sure that everything is installed and setup correctly. You should see output printed to the console window (usually the lower left pane in RStudio).
+    4. Take a screenshot of (or copy & paste) the console output and send it via email to the lead instructor (<a href='mailto:{{email}}'>{{email}}</a>). Be sure to include the line starting with `source("` to the end.
+</div>
+If at any point you get stuck or run into problems, please don't hesitate to ask us for help!
+
 {% comment %}
 For online workshops, the section below provides:
 - installation instructions for the Zoom client
