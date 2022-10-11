@@ -433,7 +433,7 @@ All installation steps are required prior to receiving workshop Zoom link/meetin
     1. Move `un-report.zip` to your **Desktop** and unzip it (usually double-clicking it will work).
     2. Start up **RStudio**. In the upper left menu, select `File` > `Open`. In the window that opens, go to the `un-report/` folder on your Desktop and select the file `check_setup.R` to open it in RStudio.
     3. Click the **`Source`** button to run the script. This script will make sure that everything is installed and setup correctly. You should see output printed to the console window (usually the lower left pane in RStudio).
-    4. Take a screenshot of (or copy & paste) the console output and send it via email to the lead instructor (<a href='mailto:{{email}}'>{{email}}</a>). Be sure to include the line starting with `source("` to the end.
+    4. Take a screenshot of (or copy & paste) the console output and send it via email to the lead instructor (<a href='mailto:{{salucas@umich.edu}}'>{{email}}</a>). Be sure to include the line starting with `source("` to the end.
 </div>
 If at any point you get stuck or run into problems, please don't hesitate to ask us for help!
 
